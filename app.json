@@ -1,0 +1,30 @@
+{
+  "name": "dreaded-bot",
+  "description": "A WhatsApp Bot written in JavaScript using Baileys.",
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "whatsapp-bot",
+    "whatsapp-bot"
+  ],
+  "logo": "https://raw.githubusercontent.com/AliAryanTech/Chisato-WhatsApp/master/assets/images/chisato.png",
+  "website": "https://github.com/Fortunatusmokaya/dreaded1#readme",
+  "repository": "https://github.com/Fortunatusmokaya/dreaded1.git",
+  "success_url": "/",
+  "env": {
+    "DATABASE_URL": {
+        "description": "Mongodb for database"
+    },
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
